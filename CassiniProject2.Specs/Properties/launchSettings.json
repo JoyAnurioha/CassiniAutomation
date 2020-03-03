@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CassiniProject2.Specs": {
+      "commandName": "Project"
+    },
+    "CassiniProject.Specs": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.deps.json
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.dll
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.pdb
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.AssemblyInfoInputs.cache
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.AssemblyInfo.cs
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.dll
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.pdb
+C:\Users\J.Anurioha\source\repos\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.csprojAssemblyReference.cache
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.deps.json
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.dll
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\bin\Debug\netcoreapp3.1\CassiniAutomationProject.pdb
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.csprojAssemblyReference.cache
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.AssemblyInfoInputs.cache
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.AssemblyInfo.cs
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.dll
+C:\Users\J.Anurioha\Desktop\CassiniAutomation\CassiniAutomationProject\obj\Debug\netcoreapp3.1\CassiniAutomationProject.pdb

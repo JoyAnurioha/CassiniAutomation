@@ -1,0 +1,10 @@
+[0210/162009.432:ERROR:file_io_win.cc(161)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir18280_374272605\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0210/162009.433:ERROR:file_io_win.cc(170)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir18280_374272605\Crashpad\reports\142609db-eaa4-49f6-9fd8-846dcb3f6fe8.dmp: The system cannot find the path specified. (0x3)
+[0210/162009.433:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0211/164241.559:ERROR:file_io_win.cc(161)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir8796_1365916617\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0224/110949.524:ERROR:file_io_win.cc(161)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir20440_1901755556\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0224/110949.529:ERROR:file_io_win.cc(170)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir20440_1901755556\Crashpad\reports\300df14b-0733-444c-848e-374ff0a409da.dmp: The system cannot find the path specified. (0x3)
+[0224/110949.529:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0226/114601.922:ERROR:file_io_win.cc(161)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir20000_238878752\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0226/114601.922:ERROR:file_io_win.cc(170)] CreateFile C:\Users\J2DCD~1.ANU\LOCALS~1\Temp\scoped_dir20000_238878752\Crashpad\reports\e34b6982-4f92-4ca3-b091-7ad173b96195.dmp: The system cannot find the path specified. (0x3)
+[0226/114601.922:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
