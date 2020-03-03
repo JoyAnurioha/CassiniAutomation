@@ -6,7 +6,9 @@ Various web elements on the page are defined as variables and all possible user 
 This design pattern consequently enhances test maintenance and reduces code duplication.
 
 #Framework Architecture
+
 Tests --> Framework -->Selenium --> Web App
+
 This architecture ensures that the automation framework is seperated from tests. Each layer only interacts with the layer immediately below it.
 Tests are written to directly interact or use the framework and the framework in turn interact with the Web App with the help of Selenium Webdriver.
 Tests have no knowledge of the Web App and its html elements. This is handled by the framework so that when a web element changes, all affected tests wont need to be updated
