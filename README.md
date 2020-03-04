@@ -39,17 +39,15 @@ The nuget packages for the Framework project
 - Selenium.Webdriver.FirefoxDriver
 - DotNetSelenumExtras.WaitHelpers
 
-#Writing testst
+#Writing testest
+Feature files are created as SpecFlow Feature file and saved in the Features folder
 
-Feature files are created as SpecFlow Feature file
-Step bindings are created as SpecFlow Step defintion file
+Step bindings are created as SpecFlow Step definition file and saved in the StepBindings folder
 
 #Running test
-
 Tests are run locally using nunit runner
 
 #Creating Living documentation of the feature files
-
 command to generate documentation for feature files using pickles
 Pickle-Features -FeatureDirectory <feature directory path> -OutputDirectory  <output directory path> -SystemUnderTestName "<project name>" -SystemUnderTestVersion "1.0" -DocumentationFormat Dhtml
   
