@@ -40,14 +40,22 @@ The nuget packages for the Framework project
 - DotNetSelenumExtras.WaitHelpers
 
 #Writing testst
+
 Feature files are created as SpecFlow Feature file
 Step bindings are created as SpecFlow Step defintion file
 
 #Running test
+
 Tests are run locally using nunit runner
 
 #Creating Living documentation of the feature files
+
 command to generate documentation for feature files using pickles
 Pickle-Features -FeatureDirectory <feature directory path> -OutputDirectory  <output directory path> -SystemUnderTestName "<project name>" -SystemUnderTestVersion "1.0" -DocumentationFormat Dhtml
-
+  
 #Set up guide
+- Install Visual Studio Professional 2019
+- install git (https://git-scm.com/downloads)
+- Clone the repository from github using the clone Url ( )
+- Open soluton locally using visual studio
+- Happy test development!!!
