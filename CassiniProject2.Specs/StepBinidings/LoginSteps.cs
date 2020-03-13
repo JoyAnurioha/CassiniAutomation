@@ -28,7 +28,7 @@ namespace CassiniProject2.Specs.StepBinidings
         public void GivenIAmOnTheLoginPage()
         {
             driver.Navigate().GoToUrl(Utility.URL);
-            Assert.IsTrue(driver.PageSource.Contains("Begin your journey"));
+            Assert.IsTrue(driver.PageSource.Contains("Welcome back"));
         }
 
         [When(@"I enter correct details and login")]
@@ -51,14 +51,15 @@ namespace CassiniProject2.Specs.StepBinidings
             //attempts to login with same incorrect details
             Random rand = new Random();
             int randomNum = rand.Next();
-            email = randomNum + email;
+            string formattedEmail = (email != "")? randomNum + email : email;
 
-            loginPage.Login(email, password);
+            loginPage.Login(formattedEmail, password);
         }
 
         [Then(@"I should see an error ""(.*)"" displayed on the page")]
         public void ThenIShouldSeeAnErrorDisplayedOnThePage(string message)
         {
+            Console.WriteLine(driver.PageSource);
             Assert.IsTrue(driver.PageSource.Contains(message));
         }
 

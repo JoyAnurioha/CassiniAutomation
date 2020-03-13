@@ -130,8 +130,10 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Login with incorrect login details")]
-        [NUnit.Framework.TestCaseAttribute("mkjufhfhuwhkmfwhh.gmail.com", "", "Wrong email or password", null)]
-        [NUnit.Framework.TestCaseAttribute("ieso.digital+test2cassini@gmail.com", "Logarp44", "Wrong email or password", null)]
+        [NUnit.Framework.TestCaseAttribute("", "", "Please enter a valid email address and password", null)]
+        [NUnit.Framework.TestCaseAttribute("mkjufhfhuwhkmfwhh.gmail.com", "", "That email or password wasn\'t recognised", null)]
+        [NUnit.Framework.TestCaseAttribute("", "Logarp44", "Please enter a valid email address and password", null)]
+        [NUnit.Framework.TestCaseAttribute("ieso.digital+test2cassini@gmail.com", "Logarp44", "That email or password wasn\'t recognised", null)]
         public virtual void LoginWithIncorrectLoginDetails(string email, string password, string message, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
@@ -175,7 +177,7 @@ this.FeatureBackground();
         {
             string[] tagsOfScenario = ((string[])(null));
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Logout as an existing user", null, ((string[])(null)));
-#line 25
+#line 27
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -198,10 +200,10 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line hidden
-#line 26
+#line 28
  testRunner.When("I successfully login with my details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 27
+#line 29
  testRunner.Then("I should be able to logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -214,7 +216,7 @@ this.FeatureBackground();
         {
             string[] tagsOfScenario = ((string[])(null));
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View my profile as an existing user", null, ((string[])(null)));
-#line 29
+#line 31
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -237,10 +239,10 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line hidden
-#line 30
+#line 32
  testRunner.When("I successfully login with my details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 31
+#line 33
  testRunner.Then("I should be able to view my profile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

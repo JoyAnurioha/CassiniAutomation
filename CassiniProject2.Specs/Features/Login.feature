@@ -18,9 +18,11 @@ Scenario Outline: Login with incorrect login details
 	Then I should see an error "<message>" displayed on the page
 
 	Examples: 
-	| email                                 | password | message                 |
-	| mkjufhfhuwhkmfwhh.gmail.com           |          | Wrong email or password |
-	| ieso.digital+test2cassini@gmail.com   |Logarp44  | Wrong email or password |
+	| email                              | password | message                                         |
+	|                                    |          | Please enter a valid email address and password |
+	| mkjufhfhuwhkmfwhh.gmail.com        |          | That email or password wasn't recognised        |
+	|                                    | Logarp44 | Please enter a valid email address and password |
+	| ieso.digital+test2cassini@gmail.com| Logarp44 | That email or password wasn't recognised        |
 
 Scenario: Logout as an existing user
 	When I successfully login with my details 
