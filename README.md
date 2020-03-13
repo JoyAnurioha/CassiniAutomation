@@ -5,7 +5,7 @@ where every single page will be modelled as a class with high level of abstracti
 Various web elements on the page are defined as variables and all possible user interactions on the page implemented as methods to perform the main feature of that page.
 This design pattern consequently enhances test maintenance and reduces code duplication.
 
-#Framework Architecture
+##Framework Architecture
 
 Tests --> Framework -->Selenium --> Web App
 
@@ -14,7 +14,7 @@ Tests are written to directly interact or use the framework and the framework in
 Tests have no knowledge of the Web App and its html elements. This is handled by the framework so that when a web element changes, all affected tests wont need to be updated
 but rather update is made on the page class file that houses the web elements.
 
-#Required setup tools
+##Required setup tools
 - Visual Studio Professional 2019 for test development
 - Specflow for writing feature files (https://specflow.org)
 - Selenium for automating web application for testing purposes (https://www.selenium.dev)
@@ -22,7 +22,7 @@ but rather update is made on the page class file that houses the web elements.
 - ExtentReport for generating test reports (https://extentreports.com)
 - Pickles for creating living documentation of feature files (https://www.picklesdoc.com)
 
-#Required Nuggets
+##Required Nuggets
 The nuget packages for the Nunit test project are:
 - Nunit version 3 or higher
 - NUnit3TestAdapter
@@ -39,15 +39,23 @@ The nuget packages for the Framework project
 - Selenium.Webdriver.FirefoxDriver
 - DotNetSelenumExtras.WaitHelpers
 
-#Writing testst
-Feature files are created as SpecFlow Feature file
-Step bindings are created as SpecFlow Step defintion file
+##Writing tests
 
-#Running test
+Feature files are created as SpecFlow Feature file and saved in the Features folder
+
+Step bindings are created as SpecFlow Step definition file and saved in the StepBindings folder
+
+##Running test
+
 Tests are run locally using nunit runner
 
-#Creating Living documentation of the feature files
+##Creating Living documentation of the feature files
 command to generate documentation for feature files using pickles
 Pickle-Features -FeatureDirectory <feature directory path> -OutputDirectory  <output directory path> -SystemUnderTestName "<project name>" -SystemUnderTestVersion "1.0" -DocumentationFormat Dhtml
-
-#Set up guide
+  
+##Set up guide
+- Install Visual Studio Professional 2019
+- install git (https://git-scm.com/downloads)
+- Clone the repository from github using the clone Url ( )
+- Open soluton locally using visual studio
+- Happy test development!!!
